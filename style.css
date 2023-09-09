@@ -1,0 +1,141 @@
+/* Reset some default styles for a clean slate */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXwoGUzMcppsJFw-uJ17noym0rYDzINaYBOiAA2UdLHlxbbh9MtrnhTByKWbEiATKbqQU&usqp=CAU://png.pngtree.com/thumb_back/fh260/background/20210224/pngtree-blue-abstract-background-business-image_564246.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center center; 
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1); /* Add a hover effect to enlarge the image */
+  filter: grayscale(20%); /* Add a grayscale effect on hover */
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.basic-info {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.basic-info h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.basic-info p {
+  font-size: 18px;
+  color: #c71919;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+hr {
+  margin: 30px auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  opacity: 0.5;
+}
+
+.education h2,
+.strengths-weaknesses h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.education ul {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.education li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.about-me h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: left;
+  font-style: italic;
+  font: bold;
+}
+
+.strengths-weaknesses h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.strengths-weaknesses ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.strengths-weaknesses p {
+  text-align: left;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+  font: bolder;
+}
